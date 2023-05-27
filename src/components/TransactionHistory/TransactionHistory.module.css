@@ -1,0 +1,31 @@
+.transaction {
+    width: 340px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.transaction th,
+.transaction td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.transaction th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.transaction tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transaction tbody tr:hover {
+  background-color: #e6e6e6;
+}
