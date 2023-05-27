@@ -1,12 +1,13 @@
 .transaction {
-    width: 340px;
-    margin: 100px auto;
+    width: 380px;
+    margin: 0 auto;
     background-color: antiquewhite;
     padding: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 
